@@ -1,0 +1,33 @@
+# Flutter
+.dart_tool/
+build/
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/build/
+android/**/.cxx/
+
+# iOS / macOS
+ios/Pods/
+macos/Pods/
+
+# Web
+build/web/
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android SDK (MUST NOT BE IN PROJECT)
+android/%ANDROID_HOME%/
+android/**/cmdline-tools/
+android/**/platform-tools/
+android/**/build-tools/
